@@ -1,0 +1,31 @@
+{
+    "name": "relens",
+    "version": "0.0.1",
+    "private": true,
+    "description": "ReLens is your friendly neighbourhood research assistant.",
+    "license": "MIT",
+    "homepage": "https://github.com/Elyntic/relens#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Elyntic/relens.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Elyntic/relens/issues"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Zaqar Hakobyan",
+        "url": "https://github.com/codewithzaqar"
+    },
+    "engines": {
+        "node": ">=5"
+    },
+    "main": "index.js",
+    "scripts": {
+        "test": "electron-mocha",
+        "start": "electron ."
+    },
+    "devDependencies": {
+        "electron-prebuilt": "^0.34.2"
+    }
+}
